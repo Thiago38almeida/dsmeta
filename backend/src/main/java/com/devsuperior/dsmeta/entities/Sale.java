@@ -1,6 +1,6 @@
 package com.devsuperior.dsmeta.entities;
 
-import java.time.LocalDate; // import da biblioteca date
+import java.time.LocalDate;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -8,10 +8,11 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+
 // declaração de classe
 @Entity
 @Table (name= "tb_sales") // declara a table do bando de dados
-public class sales {
+public class Sale {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,7 +24,7 @@ public class sales {
 	 private LocalDate date;
 
 	// methods de acesso da classe
-	public sales() {
+	public Sale() {
 		 
 	 }
 
