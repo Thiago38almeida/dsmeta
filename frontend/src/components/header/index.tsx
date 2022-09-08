@@ -1,4 +1,4 @@
-import logo from '../../assets/img/logoMundial.svg'
+import logo from '../../assets/img/logo.svg'
 
 import './style.css'
 function Header() {
