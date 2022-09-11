@@ -2,8 +2,8 @@ header {
     background: linear-gradient(180deg, #161718 0%, #f18b16 100%);
     height: 220px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
   }
   
   .dsmeta-logo-container {
