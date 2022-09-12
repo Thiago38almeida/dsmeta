@@ -1,12 +1,13 @@
 import NotificationButton from "./components/notificationbutton"
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Header from "./components/header"
+import Header from "./components/header";
 
-import SalesCard from "./components/salescard"
-import BuyCard from "./components/buycard"
+import SalesCard from "./components/salescard";
+import BuyCard from "./components/buycard";
 
-function App() {
+
+function App(): JSX.Element {
   return (
     <>
       <ToastContainer/>
