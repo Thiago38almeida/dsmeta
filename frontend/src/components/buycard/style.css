@@ -8,8 +8,9 @@
   .dsmeta-container {
     width: 100%;
     max-width: 900px;
-   float: left;
-   margin-right: -4px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
   }
   
   #sales {
