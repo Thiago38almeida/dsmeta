@@ -7,8 +7,9 @@
   .dsmeta-container {
     width: 100%;
     max-width: 900px;
-    position: relative;
-    float: left;
+    display: flex;
+    justify-content: center;
+     align-items: center;
     margin-right: -4px;
   }
   
